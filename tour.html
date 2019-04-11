@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Cando</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Top Navigation Menu -->
+  <div class="topnav">
+    <div class="embed-3by1">
+    <img class="embed-item push-0 active img-flex" src="images/cando.png" alt="Cando logo">
+    </div>
+    <div id="myLinks">
+      <a href="index.html">Home</a>
+      <a href="tour.html">Tour</a>
+      <a href="pricing.html">Pricing</a>
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+  </script>
+
+  <main>
+  <h2 class="text-center pad-t-2">Tour</h2>
+  <p class="giga text-center">We have the tools to get you started</p>
+
+  <ul class="list-group cards">
+    <li>
+      <img src="images/group-icons.png" alt="Sorry, we could not find the image">
+      <h3 class="text-center">Icons</h3>
+      <p class="text-center">We offer a  vast variety of icons to suit your style.</p>
+      <div>
+        <a href="signup.html">Sign-Up</a>
+      </div>
+    </li>
+
+    <li>
+      <img src="images/monkey.png" alt="Sorry, we could not find the image">
+      <h3 class="text-center">Logos</h3>
+      <p class="text-center">Create a logo with our premade shapes and images.</p>
+      <div>
+        <a href="signup.html">Sign-Up</a>
+      </div>
+    </li>
+
+    <li>
+      <img class="pad-t-2" src="images/vectors.png" alt="Sorry, we could not find the image">
+      <h3 class="pad-t-1-2 text-center">Vectors</h3>
+      <p class="text-center">Export your creations to vector format for maximum adaptability!</p>
+      <div>
+        <a href="signup.html">Sign-Up</a>
+      </div>
+    </li>
+
+  </ul>
+  <div class="pad-t-2">
+    <div class="hero-section relative">
+      <div>
+        <img class="hero-image img-flex" src="images/plan-banner.png" alt="">
+      </div>
+      <div class="hero-section-text pin-rt island">
+        <h2 class="h2-banner max-length banner-color">   Give us the stressful work, that's what we're here for.   </h2>
+        <a class="btn" href="">Sign-Up</a>
+      </div>
+    </div>
+  </div>
+  </main>
+  <footer>
+    </footer>
+</body>
+</html>

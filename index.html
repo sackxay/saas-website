@@ -14,56 +14,82 @@
 
     <!-- Top Navigation Menu -->
     <div class="topnav">
-      <a href="#home" class="active">CANDO</a>
+      <h1 class="push-0 active">CANDO</h1>
       <div id="myLinks">
         <a href="index.html">Home</a>
-        <a href="services.html">Services</a>
-        <a href="plans.html">Plans</a>
-        <a href="support.html">Support</a>
+        <a href="tour.html">Tour</a>
+        <a href="pricing.html">Pricing</a>
       </div>
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i>
       </a>
     </div>
 
-    <script>
-    function myFunction() {
-      var x = document.getElementById("myLinks");
-      if (x.style.display === "block") {
-        x.style.display = "none";
-      } else {
-        x.style.display = "block";
-      }
-    }
-    </script>
-<div class="hero-section">
-  <div class="embed embed-4by1">
-    <img class="hero-image embed-item" src="Dog Image.png" alt="">
+<!--banner-->
+
+<div class="hero-section relative">
+  <div class="">
+    <img class="hero-image img-flex" src="images/dog-image.png" alt="">
   </div>
-  <div class="hero-section-text">
+  <div class="hero-section-text pin-lt island">
     <h2 class="micro h2-banner max-length">We work from anywhere
     <br>So you can work from anywhere</h2>
     <a class="nano btn" href="">Sign-Up</a>
   </div>
 </div>
 
-
+<!--main-->
 <div class="not-centered max-length" style="padding-left:16px">
   <h2 class="milli">We know you're busy, so let us help!</h3>
   <p class="micro">We understand that life can be hectic, wether you work at home or have commitments that take priority, we can take some of the workload so that you can focus on the things that are important.</p>
-  <p class="micro">Click on the hamburger menu (three bars) in the top right corner, to toggle the menu.</p>
 </div>
-<div>
-  <p>Services</p>
-  <p>Help</p>
-  <p>Plans</p>
+<div class="push">
+  <ul class="list-group cards">
 
-  Wendy Williams - qoute
-  This service was a life saver, I had deadlines to meet and personal ussues arose, luckily Cando was there to lend me a hand.
+  <li>
+    <img src="images/knife.png" alt="Sorry, we could not find the image">
+    <div>
+      <a href="https://en.wikipedia.org/wiki/Voyager_1">Services</a>
+    </div>
+  </li>
 
-  Explore the options!
-  <btn>Plans</btn>
+  <li>
+    <img src="images/question.png" alt="Sorry, we could not find the image">
 
+    <div>
+      <a href="https://en.wikipedia.org/wiki/New_Horizons">Support</a>
+    </div>
+  </li>
 
+  <li>
+    <img src="images/book.png" alt="Sorry, we could not find the image">
+    <div>
+      <a href="https://en.wikipedia.org/wiki/New_Horizons">Sign-Up</a>
+    </div>
+  </li>
+
+</ul>
+</div>
+<div class="figure pad-t-2 push-2">
+  <img class="quote" src="images/wendy.png" alt="Sorry, we could not find the image">
+  <div class="pin-r quote island">
+    <h3>Wendy Williams</h3>
+
+  <p class="italic">"This service was a life saver, I had deadlines to meet and personal ussues arose, luckily Cando was there to lend me a hand."</p>
+</div>
+</div>
+<strong class="text-center">Explore the options!</strong>
+      <a class="btn" href="https://en.wikipedia.org/wiki/Voyager_1">Plans</a>
+
+  <script>
+  function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+  </script>
     </body>
     </html>
